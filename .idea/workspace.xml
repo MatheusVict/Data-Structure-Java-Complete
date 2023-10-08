@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d6a103d-3124-4e18-a0c3-544e802f18f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/IteratorListaLigada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/Comparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/Comparation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/ListaLigada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/ListaLigada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Comparation">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Comparation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.matheusvictor.dataStructure.listaligada.Comparation" />
       <module name="DataStructureLearning" />
@@ -84,9 +82,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Comparation" />
         <item itemvalue="Application.io.matheusvictor.dataStructure.listaligada.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
