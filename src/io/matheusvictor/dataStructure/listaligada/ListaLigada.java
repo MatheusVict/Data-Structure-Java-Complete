@@ -53,6 +53,10 @@ public class ListaLigada<T> {
         return current;
     }
 
+    public IteratorListaLigada<T> getIterator() {
+        return new IteratorListaLigada<T>(this.first);
+    }
+
     public ListaLigada() {
         this.size = 0;
     }

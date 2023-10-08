@@ -17,7 +17,7 @@ public class Comparation {
         }
 
         finalTime = System.currentTimeMillis();
-        System.out.println("JDK add: \n");
+        System.out.println("JDK adding " + limit + " elements on memory: \n");
         System.out.println(finalTime - initialTime);
 
          initialTime = System.currentTimeMillis();
@@ -27,7 +27,7 @@ public class Comparation {
         }
 
         finalTime = System.currentTimeMillis();
-        System.out.println("my implementation add: \n");
+        System.out.println("my implementation adding " + limit + " elements on memory: \n");
         System.out.println(finalTime - initialTime);
 
         // ready from linkedList and read from vector
@@ -39,19 +39,23 @@ public class Comparation {
         }
 
         finalTime = System.currentTimeMillis();
-        System.out.println("JDK get:\n");
+        System.out.println("JDK getting " + limit + " elements on memory:\n");
         System.out.println(finalTime - initialTime);
 
         initialTime = System.currentTimeMillis();
-        System.out.println("before running");
+
+        IteratorListaLigada<Integer> iterator = listaLigada.getIterator();
+
+        while (iterator.hasNext()) {
+            iterator.getNext();
+        }
 
         for (int i = 0; i < listaLigada.getSize(); i++) {
             listaLigada.getElement(i);
         }
-        System.out.println("after");
 
         finalTime = System.currentTimeMillis();
-        System.out.println("My implementation get:\n");
+        System.out.println("My implementation getting " + limit + " elements on memory:\n");
         System.out.println(finalTime - initialTime);
     }
 }
