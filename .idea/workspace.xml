@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d6a103d-3124-4e18-a0c3-544e802f18f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructureLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/ListaLigada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/listaligada/Comparation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +40,20 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.io.matheusvictor.dataStructure.listaligada.Main">
+  <component name="RunManager" selected="Application.Comparation">
+    <configuration name="Comparation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.matheusvictor.dataStructure.listaligada.Comparation" />
+      <module name="DataStructureLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.matheusvictor.dataStructure.listaligada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.matheusvictor.dataStructure.vetor.Main" />
       <module name="DataStructureLearning" />
@@ -80,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Comparation" />
         <item itemvalue="Application.io.matheusvictor.dataStructure.listaligada.Main" />
         <item itemvalue="Application.Main" />
       </list>
