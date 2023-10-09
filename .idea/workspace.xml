@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d6a103d-3124-4e18-a0c3-544e802f18f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/ordenation/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/ordenation/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/ordenation/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/matheusvictor/dataStructure/vetor/ordenation/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.matheusvictor.dataStructure.vetor.BinarySearch" />
       <module name="DataStructureLearning" />
@@ -82,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.matheusvictor.dataStructure.vetor.ordenation.InsertionSort" />
+      <module name="DataStructureLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.matheusvictor.dataStructure.vetor.ordenation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.matheusvictor.dataStructure.vetor.LinearSearch" />
       <module name="DataStructureLearning" />
@@ -95,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.matheusvictor.dataStructure.listaligada.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.matheusvictor.dataStructure.listaligada.Main" />
-      <module name="DataStructureLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.matheusvictor.dataStructure.listaligada.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.Comparation" />
-        <item itemvalue="Application.io.matheusvictor.dataStructure.listaligada.Main" />
       </list>
     </recent_temporary>
   </component>

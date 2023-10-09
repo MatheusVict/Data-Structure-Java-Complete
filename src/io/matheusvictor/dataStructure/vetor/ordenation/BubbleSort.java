@@ -1,7 +1,8 @@
 package io.matheusvictor.dataStructure.vetor.ordenation;
+
 /*
-*
-* O(n²)
+ *
+ * O(n²)
  */
 public class BubbleSort {
     public static void main(String[] args) {
@@ -24,7 +25,7 @@ public class BubbleSort {
         }
 
         System.out.println("after bubble");
-        for(int i: vector) {
+        for (int i : vector) {
             System.out.println(i);
         }
     }
