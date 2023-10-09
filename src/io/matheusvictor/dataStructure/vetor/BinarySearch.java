@@ -1,7 +1,9 @@
 package io.matheusvictor.dataStructure.vetor;
 
 import java.util.Scanner;
-
+/*
+*O(log n)
+ */
 public class BinarySearch {
     public static void main(String[] args) {
         int[] vector = new int[1000000];

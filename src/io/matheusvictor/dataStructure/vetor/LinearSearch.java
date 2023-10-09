@@ -2,6 +2,9 @@ package io.matheusvictor.dataStructure.vetor;
 
 import java.util.Scanner;
 
+/**
+ * O(n)
+ */
 public class LinearSearch {
     public static void main(String[] args) {
         int[] vector = new int[8];
