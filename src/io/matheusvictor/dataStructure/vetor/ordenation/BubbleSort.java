@@ -1,6 +1,6 @@
 package io.matheusvictor.dataStructure.vetor.ordenation;
 
-/*
+/**
  *
  * O(n²)
  */
