@@ -16,6 +16,19 @@ public class ListaLigada<T> {
         this.size++;
     }
 
+    public void addAtStart(T element) {
+        Node<T> newNode = new Node<>(element);
+        if (first == null && last == null) {
+            this.first = newNode;
+        } else {
+            newNode.setNext(this.first);
+            this.first = newNode;
+        }
+        this.last = newNode;
+
+        this.size++;
+    }
+
     public void removeNewElement(T element) {
         Node<T> previous = null;
         Node<T> current = this.first;
